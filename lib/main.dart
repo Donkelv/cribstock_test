@@ -26,6 +26,7 @@ class InitRoute extends StatelessWidget {
        designSize: const Size(375, 854),
       builder: (context, child) {
         return MaterialApp(
+          debugShowCheckedModeBanner: false,
           title: 'Cribstock Test',
           theme: ThemeData(
             // This is the theme of your application.
