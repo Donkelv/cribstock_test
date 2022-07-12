@@ -1,6 +1,6 @@
 import 'package:cribstock_test/data/constants/color_const.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
@@ -68,7 +68,7 @@ class HomeTopWidget extends StatelessWidget {
                       IconButton(
                         onPressed: () {},
                         icon: const Icon(
-                          Icons.notifications,
+                          Icons.notifications_outlined,
                           color: whiteColor,
                         ),
                       ),
