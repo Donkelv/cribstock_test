@@ -40,7 +40,7 @@ class MoneyManagementContainer extends StatelessWidget {
             Column(
               children: [
                 Container(
-                  width: 80.0.w,
+                  width: 75.0.w,
                   height: 50.0.h,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(25.0),
@@ -72,7 +72,7 @@ class MoneyManagementContainer extends StatelessWidget {
             Column(
               children: [
                 Container(
-                  width: 80.0.w,
+                  width: 75.0.w,
                   height: 50.0.h,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(25.0),
@@ -105,7 +105,7 @@ class MoneyManagementContainer extends StatelessWidget {
             Column(
               children: [
                 Container(
-                  width: 80.0.w,
+                  width: 75.0.w,
                   height: 50.0.h,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(25.0),

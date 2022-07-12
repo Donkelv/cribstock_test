@@ -30,14 +30,14 @@ class TransactionWidget extends StatelessWidget {
         ],
       ),
       child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 15.0.w, vertical: 14.0.h),
+        padding: EdgeInsets.symmetric(horizontal: 15.0.w, vertical: 5.0.h),
         child: ListView.builder(
             physics: const NeverScrollableScrollPhysics(),
             itemCount: 5,
             shrinkWrap: true,
             itemBuilder: (context, index) {
               return Padding(
-                padding: EdgeInsets.only(bottom: 15.0.h),
+                padding: EdgeInsets.symmetric(vertical: 15.0.h),
                 child: Material(
                   type: MaterialType.transparency,
                   child: InkWell(

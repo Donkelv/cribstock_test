@@ -69,7 +69,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                       MoneyManagementContainer(size: size),
                       SizedBox(
-                        height: 40.0.h,
+                        height: 20.0.h,
                       ),
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 25.0.w),
@@ -98,7 +98,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ),
                       SizedBox(
-                        height: 20.0.h,
+                        height: 15.0.h,
                       ),
                       const TransactionWidget(),
                       SizedBox(
