@@ -10,3 +10,17 @@ List<Widget> screens = [
   const StockScreen(),
   const CardScreen(),
 ];
+
+List<String> textList = [
+  "Home",
+  "Report",
+  "Stock",
+  "Cards",
+];
+
+List<IconData> iconList = [
+  Icons.home,
+  Icons.pie_chart,
+  Icons.bar_chart,
+  Icons.credit_card,
+];
